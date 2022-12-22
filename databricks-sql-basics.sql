@@ -7,4 +7,10 @@ salary double
 
 -- COMMAND ----------
 
+insert into default.employees values
+(1,"adam", 2500.00),
+(2,"mark", 3500.00)
 
+-- COMMAND ----------
+
+select * from default.employees
