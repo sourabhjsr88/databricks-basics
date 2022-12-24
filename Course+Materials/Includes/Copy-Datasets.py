@@ -95,3 +95,11 @@ def load_new_json_data(all=False):
 # COMMAND ----------
 
 download_dataset(data_source_uri, dataset_bookstore)
+
+# COMMAND ----------
+
+# MAGIC %fs ls "dbfs:/mnt/demo-datasets/bookstore/customers-json"
+
+# COMMAND ----------
+
+# MAGIC %fs ls "dbfs:/mnt/demo-datasets/bookstore/orders-json-raw"
