@@ -14,3 +14,15 @@ insert into default.employees values
 -- COMMAND ----------
 
 select * from default.employees
+
+-- COMMAND ----------
+
+create schema hr_db
+
+-- COMMAND ----------
+
+create table pasis_employees(
+id int,
+name string,
+salary double
+)
